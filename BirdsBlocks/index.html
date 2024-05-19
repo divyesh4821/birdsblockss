@@ -19,58 +19,67 @@
 
         <header class="header py-3">
             <div class="container-fluid">
-                <div class="row py-3 mb-2">
+                <div class="row py-lg-3 py-2 mb-2 justify-content-center">
                     <div
-                        class="col-md-4 col-12 text-center text-md-start d-flex align-items-center justify-content-start gap-3 text-white">
+                        class="col-md-4 col-12 text-center text-md-start align-items-center justify-content-md-start justify-content-center gap-3 text-white d-flex md-hide">
                         <select
                             class="form-select country-select bg-dark text-white w-25 border-0 "
                             data-placeholder="Select a country">
-                            <option></option>
-                            <option value="us"><span></span>USA</option>
+                            <option value="us" selected><span></span>USA</option>
                             <option value="br"><span></span>British</option>
                             <option value="is"><span></span>Islands</option>
                             <option value="in"><span></span> India</option>
-                        </select>
-                        <button class>About Us</button>
+                        </select> |
+                        <a href="#" class>About Us</a>
                     </div>
-                    <div class="col-md-4 col-12 text-center">
+                    <div
+                        class="col-lg-4 col-md-12 col-12 text-center d-md-flex justify-content-lg-center justify-content-between d-flex setOrder ">
                         <a href="#">
                             <img
                                 src="./Assets/Images/BirdsAndBlokes-FullLogo-W 1.svg"
                                 alt>
                         </a>
+                        <button
+                            class="btn toggle-btn bg-white text-black position-unset d-lg-none d-block">☰</button>
                     </div>
                     <div
-                        class="col-md-4 col-12 text-center text-md-end d-flex align-items-center justify-content-end gap-3 text-white">
-                        <button class="me-1">Log In</button> |
-                        <button class="me-1">Sign Up</button>
-                        <button class><img
+                        class="col-md-4 col-12 text-center text-md-end d-flex align-items-center justify-content-lg-end justify-content-center gap-3 text-white md-hide">
+                        <a href="#" class="me-1">Log In</a> |
+                        <a href="#" class="me-1">Sign Up</a>
+                        <a href="#" class><img
                                 src="./Assets/Images/shopping-bag.svg"
-                                alt></button>
+                                alt></a>
                     </div>
                 </div>
                 <div class="search-container">
                     <input type="text" placeholder="What can we help you find?">
-                    <button type="submit"><img src="./Assets/Images/search.svg"
+                    <button type="submit" class="px-4 rounded-end-circle"><img
+                            src="./Assets/Images/search.svg"
                             alt="Search"></button>
                 </div>
                 <div class="text-center mt-4 d-none d-md-block">
                     <div class="menu">
-                        <ul class="d-flex align-items-center gap-lg-5 gap-md-2 justify-content-center">
-                            <li class="text-uppercase text-white"><a href="#">what's new</a></li>
-                            <li class="text-uppercase text-white"><a href="#">shop</a></li>
-                            <li class="text-uppercase text-white"><a href="#">learn</a></li>
-                            <li class="text-uppercase text-white"><a href="#">about</a></li>
-                            <li class="text-uppercase text-white"><a href="#">contact</a></li>
+                        <ul
+                            class="d-flex align-items-center gap-lg-5 gap-md-3 gap-3 justify-content-center p-0">
+                            <li class="text-uppercase text-white"><a
+                                    href="#">what's new</a></li>
+                            <li class="text-uppercase text-white"><a
+                                    href="#">shop</a></li>
+                            <li class="text-uppercase text-white"><a
+                                    href="#">learn</a></li>
+                            <li class="text-uppercase text-white"><a
+                                    href="#">about</a></li>
+                            <li class="text-uppercase text-white"><a
+                                    href="#">contact</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </header>
 
-        <section class="banner py-5">
+        <section class="banner ">
             <div class="container">
-                <div class="banner_dtl ms-lg-auto py-3 me-lg-5">
+                <div class="banner_dtl ms-lg-auto m-auto py-3 me-lg-5">
                     <h1>Small Pleasures</h1>
                     <h4>HYALURONIC SERUM</h4>
                     <p>We transparently build high-quality minimal watches from
@@ -82,9 +91,9 @@
             </div>
         </section>
 
-        <section class="product_catrgory pt-5 pb-4">
+        <section class="product_catrgory pt-lg-5 pt-3 pb-lg-4 pb-3">
             <div class="container">
-                <div class="category_dtl_area px-4">
+                <div class="category_dtl_area">
                     <div class="row">
                         <div class="col-12 col-md-6">
                             <div>
@@ -133,13 +142,14 @@
                     <h2>Never Pay Retail Again!</h2>
                     <h5 class="my-lg-4">Give Her a Symbol of Your Never-Ending
                         Love</h5>
-                    <p>We transparently build high-quality minimal watches from
+                    <p class="text-black">We transparently build high-quality
+                        minimal watches from
                         the finest components and materials.</p>
                 </div>
             </div>
         </section>
 
-        <section class="py-5">
+        <section class="products py-lg-5 py-3">
             <div class="container">
                 <div class="row pt-lg-4">
                     <div class="col-lg-3 col-md-6 col-sm-12">
@@ -197,6 +207,218 @@
                 </div>
             </div>
         </section>
+
+        <section class="swooning-swim-season">
+            <div class="overlay py-lg-5 py-3">
+                <div
+                    class=" container text-content d-flex justify-content-center justify-content-lg-start align-items-center w-100 row g-3 g-lg-4 flex-lg-col">
+                    <div class="col-lg-7 col-12">
+                        <img class="mb-lg-0 mb-3"
+                            src="./Assets/Images/blues.svg" alt>
+                        <h2 class="text-uppercase my-lg-3">Swooning for Swim
+                            Season</h2>
+                        <p>Celebrate a chapter (or two) from the story of
+                            her
+                            life.</p>
+                    </div>
+                    <div class="col-lg-5 col-12">
+                        <button class="prime_btn bg-white ms-lg-auto"><a
+                                class="text-dark text-normal" href="#">View
+                                More <img
+                                    src="./Assets/Images/arrow.svg"
+                                    width="30" /></button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter-section py-lg-5 py-md-3 py-2">
+            <div class="container">
+                <div class="row align-items-center g-3">
+                    <div class="col-lg-7 col-12">
+                        <div class="newsletter-dtl text-lg-start text-center">
+                            <h2 class="text-uppercase">Sign Up Newsletter</h2>
+                            <p>Lorem ipsum is simply dummy text of the printing
+                                and typesetting industry</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-12">
+                        <div
+                            class="newsletter-dtl input-wrapper position-relative  ms-lg-auto">
+                            <input type="email" placeholder="Your email address"
+                                class="text-black">
+                            <button class="px-3 border-0 bg-dark"><img
+                                    src="./Assets/Images/send.svg"
+                                    style="filter: invert(1);" alt></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Section -->
+        <section class="social-section overflow-hidden">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-3 p-0">
+                    <div class="social-section-box box_1">
+                        <div class="text-left z-3 position-relative">
+                            <div
+                                class="d-flex justify-content-start align-items-center gap-2 mb-lg-3 mb-2 ">
+                                <img src="./Assets/Images/instagram.svg" alt
+                                    width="40">
+                                <span><b
+                                        class="text-white">@shopbirdsabndblokes</b></span>
+                            </div>
+                            <p class="text-white">Exclusive workouts, office
+                                hours with experts, recipes, and more.</p>
+                            <a href="#"
+                                class="text-uppercase text-white fw-medium w-100 text-start d-block">Follow
+                                Us</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 p-0">
+                    <div class="social-section-box box_2">
+                        <div class="text-left z-3 position-relative">
+                            <div
+                                class="d-flex justify-content-start align-items-center gap-2 mb-lg-3 mb-2 ">
+                                <img src="./Assets/Images/pinterest.svg" alt
+                                    width="40">
+                                <span><b
+                                        class="text-white">@shopbirdsabndblokes</b></span>
+                            </div>
+                            <p class="text-white">Exclusive workouts, office
+                                hours with experts, recipes, and more.</p>
+                            <a href="#"
+                                class="text-uppercase text-white fw-medium w-100 text-start d-block">Follow
+                                Us</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 p-0">
+                    <div class="social-section-box box_3">
+                        <div class="text-left z-3 position-relative">
+                            <div
+                                class="d-flex justify-content-start align-items-center gap-2 mb-lg-3 mb-2 ">
+                                <img src="./Assets/Images/youtube.svg" alt
+                                    width="40">
+                                <span><b
+                                        class="text-white">@shopbirdsabndblokes</b></span>
+                            </div>
+                            <p class="text-white">Exclusive workouts, office
+                                hours with experts, recipes, and more.</p>
+                            <a href="#"
+                                class="text-uppercase text-white fw-medium w-100 text-start d-block">Follow
+                                Us</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 p-0">
+                    <div class="social-section-box box_4">
+                        <div class="text-left z-3 position-relative">
+                            <div
+                                class="d-flex justify-content-start align-items-center gap-2 mb-lg-3 mb-2 ">
+                                <img src="./Assets/Images/facebook.svg" alt
+                                    width="40">
+                                <span><b
+                                        class="text-white">@shopbirdsabndblokes</b></span>
+                            </div>
+                            <p class="text-white">Exclusive workouts, office
+                                hours with experts, recipes, and more.</p>
+                            <a href="#"
+                                class="text-uppercase text-white fw-medium w-100 text-start d-block">Follow
+                                Us</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <footer class="footer py-lg-5 py-3">
+            <div class="container-fluid px-lg-5">
+                <div class="pb-lg-4 pb-3 text-center my-2">
+                    <a href="#">
+                        <img
+                            src="./Assets/Images/BirdsAndBlokes-FullLogo-W 1.svg"
+                            alt>
+                    </a>
+                </div>
+                <div class="row my-lg-4 my-3 justify-content-center">
+                    <div class="col-md-6 col-12 col-lg-2 mb-3">
+                        <h5 class="mb-lg-4 mb-3">Company</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">about</a></li>
+                            <li><a href="#">how We Give Back</a></li>
+                            <li><a href="#">careers</a></li>
+                            <li><a href="#">press</a></li>
+                            <li><a href="#">news</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-12 col-lg-2 mb-3">
+                        <h5 class="mb-lg-4 mb-3">Customer Service</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">contact</a></li>
+                            <li><a href="#">my Account</a></li>
+                            <li><a href="#">track My Order</a></li>
+                            <li><a href="#">shipping & Returns</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">subscription Terms</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-12 col-lg-2 mb-3">
+                        <h5 class="mb-lg-4 mb-3">Customer Service</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Shop</a></li>
+                            <li><a href="#">Beauty</a></li>
+                            <li><a href="#">Food</a></li>
+                            <li><a href="#">Style</a></li>
+                            <li><a href="#">Travel</a></li>
+                            <li><a href="#">Wellness</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-12 col-lg-2 mb-3">
+                        <h5 class="mb-lg-4 mb-3">Connect With B&B</h5>
+                        <div class="social-icons d-flex gap-3">
+                            <a href="#"><img src="./Assets/Images/mail.png"
+                                    width="35" alt="Email"
+                                    class="img-fluid"></a>
+                            <a href="#"><img src="./Assets/Images/instagram.svg"
+                                    width="35" alt="Instagram"
+                                    class="img-fluid"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                        <h5 class="mb-lg-4 mb-3">Email Sign Up</h5>
+                        <p class>Subscribe to our newsletter (and get 10% off
+                            your first purchase!*)</p>
+                        <div class="input-wrapper mt-lg-4 mt-2">
+                            <input type="email" placeholder="Your email address"
+                                class="text-black">
+                            <button class="px-3 border-0"><img
+                                    src="./Assets/Images/send.svg" alt></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4 text-center pb-3">
+                    <div class="mt-lg-5 mt-3">
+                        <img src="./Assets/Images/blues-white.svg" alt>
+                    </div>
+                    <div
+                        class="liability d-flex gap-lg-4 gap-md-3 gap-2 justify-content-center align-items-center my-lg-5 my-3 flex-wrap">
+                        <a href>Privacy policy</a>
+                        <a href>Terms of use</a>
+                        <a href>Do not sell my information</a>
+                        <a href>Accesbility</a>
+                    </div>
+                    <p>©2022 Inc. All Rights Reserved. Birds&Blokes ® is a
+                        registered trademark of Goop, Inc. and is registered
+                        with the U.S. Patent and Trademark Office.</p>
+                </div>
+            </div>
+        </footer>
 
         <script
             src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
